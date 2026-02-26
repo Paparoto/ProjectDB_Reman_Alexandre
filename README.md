@@ -24,7 +24,9 @@ Good morning. Welcome to the Omni-Spectral Investigation & Research Institute of
 
 We are handing this over to you for the technical architecture (MERISE method), but here is exactly how our operations function and the raw data we handle daily.
 
+
 Part 1: Data Business Rules (Management Rules)
+
 Here is how our teams operate in the field and at headquarters. Please treat these as the absolute laws of our workflow:
 
 R1. Every time we deploy a team to a site, we open a specific Investigation Case. We never investigate a site without a case file.
@@ -47,7 +49,9 @@ R9. We have a roster of Researchers. We need to track who was the lead investiga
 
 R10. We also track the Cursed Possessions found at the location (e.g., Tarot Cards, Ouija Board), as they drastically alter the entity's behavior.
 
+
 Part 2: Raw Data Dictionary
+
 Here is the inventory of the raw data we scribble on our clipboards and enter into our logs. This is the raw material you have to work with.
 
 Legend:
@@ -61,6 +65,7 @@ AN: Alphanumeric
 D: Date (or Time)
 
 L: Logical (Boolean)
+
 
 
 #,Data Meaning (Description),Type,Size
