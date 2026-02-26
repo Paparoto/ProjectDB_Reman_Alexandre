@@ -90,36 +90,67 @@ D: Date (or Time)
 L: Logical (Boolean)
 
 #,Data Meaning (Description),Type,Size
+
 1,Case Reference Number (Unique ID for the file),AN,12
+
 2,Investigation Date,D,10
+
 3,Start Time (Time of entry into location),D,8
+
 4,"Weather Condition (Fog, Rain, Clear, Snow)",A,15
+
 5,"Location Name (e.g., ""Grafton Farmhouse"")",AN,50
+
 6,Location Address,AN,100
+
 7,"Location Size (Small, Medium, Large)",A,10
+
 8,"Location Type (Residential, Institutional, Outdoor)",A,20
+
 9,"Room Name (e.g., ""Foyer"", ""Utility Room"")",AN,30
+
 10,"Room Floor Level (0 for ground, -1 for basement, etc.)",N,2
+
 11,Room Surface Area (in square meters),N,4
+
 12,Ghost First Name (Human origin),A,20
+
 13,Ghost Last Name (Human origin),A,20
+
 14,Ghost Age (Age at time of death),N,3
+
 15,Ghost Gender,A,1
+
 16,Date of Death,D,10
+
 17,"Cause of Death (e.g., Murder, Accident, Natural)",AN,100
+
 18,"Spectral Class Name (e.g., ""Poltergeist"")",A,20
+
 19,Class Description (Lore and summary),AN,255
+
 20,"Class Strength (e.g., ""Throws multiple objects"")",AN,100
+
 21,"Class Weakness (e.g., ""Powerless without items"")",AN,100
+
 22,Hunt Sanity Threshold (% sanity when it attacks),N,3
+
 23,"Evidence Type (e.g., ""EMF Level 5"", ""Fingerprints"")",AN,30
+
 24,"Evidence Reading Value (Specific value recorded, if any)",AN,20
+
 25,Evidence Timestamp (When the phenomenon occurred),D,8
+
 26,Researcher Badge Number,N,6
+
 27,Researcher Last Name,A,30
+
 28,Researcher First Name,A,30
+
 29,"Researcher Rank (Rookie, Intermediate, Professional)",A,15
+
 30,"Cursed Object Name (e.g., ""Music Box"")",AN,30
+
 31,Sanity Level Recorded (Average team sanity at end),N,3
 32,Scientific Equipment Name (Device used to get evidence),AN,40
 33,Investigation Duration (in minutes),N,4
