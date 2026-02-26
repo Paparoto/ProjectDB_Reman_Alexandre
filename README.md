@@ -24,7 +24,6 @@ Good morning. Welcome to the Omni-Spectral Investigation & Research Institute of
 
 We are handing this over to you for the technical architecture (MERISE method), but here is exactly how our operations function and the raw data we handle daily.
 
-
 Part 1: Data Business Rules (Management Rules)
 Here is how our teams operate in the field and at headquarters. Please treat these as the absolute laws of our workflow:
 
@@ -47,47 +46,22 @@ R8. Evidence is always recorded in a specific Room at a specific time. We don't 
 R9. We have a roster of Researchers. We need to track who was the lead investigator on a specific case.
 
 R10. We also track the Cursed Possessions found at the location (e.g., Tarot Cards, Ouija Board), as they drastically alter the entity's behavior.
-
-Gemini a dit
-Subject: Specifications for the Omni-Spectral Database Project (Project: O.S.I.R.I.S.)
-
-Good morning. Welcome to the Omni-Spectral Investigation & Research Institute of Spirits. As you know, our work is critical. We don't just "hunt ghosts"; we catalog the unseen. We need a rigorous system to manage the massive amount of data we collect during our field operations.
-
-We are handing this over to you for the technical architecture (MERISE method), but here is exactly how our operations function and the raw data we handle daily.
-
-Part 1: Data Business Rules (Management Rules)
-Here is how our teams operate in the field and at headquarters. Please treat these as the absolute laws of our workflow:
-
-R1. Every time we deploy a team to a site, we open a specific Investigation Case. We never investigate a site without a case file.
-
-R2. An investigation takes place at a single Location (e.g., "Edgefield Road House" or "Sunny Meadows Asylum"). We need to know where it is and what kind of building it is.
-
-R3. A location is divided into specific Rooms (e.g., Master Bedroom, Basement, Cafeteria). Our researchers need to map these out.
-
-R4. During an investigation, we may identify one (and only one) Entity (Ghost). Sometimes we fail to identify it, but a case never has two distinct ghosts; it’s one entity manifesting per case.
-
-R5. We try to uncover the Entity's Biography: its former human name, when it died, and how it died.
-
-R6. Every Entity belongs to a specific Spectral Class (e.g., Banshee, Demon, Yokai). Each class has documented strengths and weaknesses that we compare against our findings.
-
-R7. To identify the class, our researchers collect Evidence (e.g., Ghost Orbs, Spirit Box response, D.O.T.S. Projector silhouette).
-
-R8. Evidence is always recorded in a specific Room at a specific time. We don't just find "Freezing Temperatures" generally; we find them in the "Living Room."
-
-R9. We have a roster of Researchers. We need to track who was the lead investigator on a specific case.
-
-R10. We also track the Cursed Possessions found at the location (e.g., Tarot Cards, Ouija Board), as they drastically alter the entity's behavior.
-
 
 Part 2: Raw Data Dictionary
 Here is the inventory of the raw data we scribble on our clipboards and enter into our logs. This is the raw material you have to work with.
 
 Legend:
+
 A: Alphabetic
+
 N: Numeric
+
 AN: Alphanumeric
+
 D: Date (or Time)
+
 L: Logical (Boolean)
+
 
 #,Data Meaning (Description),Type,Size
 
