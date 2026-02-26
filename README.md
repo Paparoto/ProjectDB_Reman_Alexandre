@@ -133,3 +133,5 @@ L: Logical (Boolean)
 31,Sanity Level Recorded (Average team sanity at end),N,3
 32,Scientific Equipment Name (Device used to get evidence),AN,40
 33,Investigation Duration (in minutes),N,4
+
+<img width="1210" height="799" alt="image" src="https://github.com/user-attachments/assets/1ce04111-5e3a-4371-970c-05d8025bce5b" />
