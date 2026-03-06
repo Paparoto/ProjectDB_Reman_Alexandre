@@ -135,3 +135,9 @@ L: Logical (Boolean)
 33,Investigation Duration (in minutes),N,4
 
 <img width="1210" height="799" alt="image" src="https://github.com/user-attachments/assets/1ce04111-5e3a-4371-970c-05d8025bce5b" />
+
+Table,Primary Key,Attributes,Foreign Keys
+Ghost_types,ghost_type_id,"name, hostility",-
+Houses,address,"town, country",-
+Ghosts,ghost_id,"first_name, last_name, age, reason_of_death, date_of_death","ghost_type_id, haunted_house_address"
+Ghost_victims,victim_id,"first_name, last_name, date_of_incident","killer_ghost_id, death_house_address"
