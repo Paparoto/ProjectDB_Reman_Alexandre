@@ -145,48 +145,32 @@ Houses(address, town, country)
 Ghosts(ghost_id, first_name, last_name, age, reason_of_death, date_of_death, #ghost_type_id, #haunted_house_address)
 
 Ghost_victims(victim_id, first_name, last_name, date_of_incident, #killer_ghost_id, #death_house_address)
-
-
+<br>
 <br>
 Prompt for the third file 3_insertion.sql :   
-
-
-<br>
 <br>
 Role: Act as an SQL relational database expert.  
-
-
-<br>
 <br>
 Context: I am working on a paranormal-themed database. I have already designed the Physical Data Model (PDM) with the following table structures:  
-
-
 <br>
 <br>
 Ghost_types (ghost_type_id, name, hostility)
-
 <br>
 Houses (address, town, country)
-
+<br>
 Ghosts (ghost_id, first_name, last_name, age, reason_of_death, date_of_death, ghost_type_id, haunted_house_address)
-
+<br>
 Ghost_victims (victim_id, first_name, last_name, date_of_incident, killer_ghost_id, death_house_address)
-
-
 <br>
 Task: Generate a comprehensive SQL insertion script (INSERT INTO statements) to populate this database with a significant amount of data.
-
-
 <br>
 Data Requirements & Constraints:
-
-
 <br>
 <br>
 Ghost Types: Generate 10 unique types (e.g., Banshee, Poltergeist, Wraith, etc.) with varied hostility levels.
-
+<br>
 Houses: Generate 10 houses located in different cities and countries around the world.
-
+<br>
 Ghosts: Create 15 ghost profiles with creative and varied reasons for death, spanning different historical eras.
-
+<br>
 Victims: Generate 15 victims linked to specific ghosts and locations.
