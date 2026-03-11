@@ -9,5 +9,5 @@ ADD CONSTRAINT chk_victim_names CHECK (first_name <> '' AND last_name <> '');
 
 
 ALTER TABLE Ghosts
-
 ADD CONSTRAINT chk_death_date CHECK (date_of_death <= CURRENT_DATE);
+
