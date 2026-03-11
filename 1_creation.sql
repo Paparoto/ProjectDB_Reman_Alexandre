@@ -1,18 +1,15 @@
--- Création de la table Ghost_types
 CREATE TABLE Ghost_types (
     ghost_type_id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     hostility INT
 );
 
--- Création de la table Houses
 CREATE TABLE Houses (
     address VARCHAR(255) PRIMARY KEY,
     town VARCHAR(100) NOT NULL,
     country VARCHAR(100) NOT NULL
 );
 
--- Création de la table Ghosts
 CREATE TABLE Ghosts (
     ghost_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -30,7 +27,6 @@ CREATE TABLE Ghosts (
         ON DELETE SET NULL ON UPDATE CASCADE
 );
 
--- Création de la table Ghost_victims
 CREATE TABLE Ghost_victims (
     victim_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -44,4 +40,5 @@ CREATE TABLE Ghost_victims (
     CONSTRAINT fk_death_house 
         FOREIGN KEY (death_house_address) REFERENCES Houses(address)
         ON DELETE CASCADE ON UPDATE CASCADE
+
 );
