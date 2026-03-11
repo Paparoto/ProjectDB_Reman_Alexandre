@@ -147,16 +147,16 @@ Ghosts(ghost_id, first_name, last_name, age, reason_of_death, date_of_death, #gh
 Ghost_victims(victim_id, first_name, last_name, date_of_incident, #killer_ghost_id, #death_house_address)
 
 
-\n
-Prompt for the third file 3_insertion.sql : 
+
+Prompt for the third file 3_insertion.sql :   
 
 
 
-Role: Act as an SQL relational database expert.
+Role: Act as an SQL relational database expert.  
 
 
 
-Context: I am working on a paranormal-themed database. I have already designed the Physical Data Model (PDM) with the following table structures:
+Context: I am working on a paranormal-themed database. I have already designed the Physical Data Model (PDM) with the following table structures:  
 
 
 
