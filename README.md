@@ -151,10 +151,13 @@ Ghost_victims(victim_id, first_name, last_name, date_of_incident, #killer_ghost_
 Prompt for the third file 3_insertion.sql : 
 
 
+
 Role: Act as an SQL relational database expert.
 
 
+
 Context: I am working on a paranormal-themed database. I have already designed the Physical Data Model (PDM) with the following table structures:
+
 
 
 Ghost_types (ghost_type_id, name, hostility)
@@ -166,10 +169,13 @@ Ghosts (ghost_id, first_name, last_name, age, reason_of_death, date_of_death, gh
 Ghost_victims (victim_id, first_name, last_name, date_of_incident, killer_ghost_id, death_house_address)
 
 
+
 Task: Generate a comprehensive SQL insertion script (INSERT INTO statements) to populate this database with a significant amount of data.
 
 
+
 Data Requirements & Constraints:
+
 
 
 Ghost Types: Generate 10 unique types (e.g., Banshee, Poltergeist, Wraith, etc.) with varied hostility levels.
