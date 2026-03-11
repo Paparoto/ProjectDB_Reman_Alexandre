@@ -152,9 +152,11 @@ Prompt for the third file 3_insertion.sql :
 
 
 <br>
+<br>
 Role: Act as an SQL relational database expert.  
 
 
+<br>
 <br>
 Context: I am working on a paranormal-themed database. I have already designed the Physical Data Model (PDM) with the following table structures:  
 
