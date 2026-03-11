@@ -164,6 +164,7 @@ Context: I am working on a paranormal-themed database. I have already designed t
 <br>
 Ghost_types (ghost_type_id, name, hostility)
 
+<br>
 Houses (address, town, country)
 
 Ghosts (ghost_id, first_name, last_name, age, reason_of_death, date_of_death, ghost_type_id, haunted_house_address)
