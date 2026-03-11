@@ -157,7 +157,6 @@ Role: Act as an SQL relational database expert.
 Context: I am working on a paranormal-themed database. I have already designed the Physical Data Model (PDM) with the following table structures:  
 <br>
 <br>
-<br>
 Ghost_types (ghost_type_id, name, hostility)
 <br>
 <br>
