@@ -147,7 +147,7 @@ Ghosts(ghost_id, first_name, last_name, age, reason_of_death, date_of_death, #gh
 Ghost_victims(victim_id, first_name, last_name, date_of_incident, #killer_ghost_id, #death_house_address)
 
 
-
+<br>
 Prompt for the third file 3_insertion.sql :   
 
 
