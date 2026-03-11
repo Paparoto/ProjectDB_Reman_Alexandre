@@ -162,6 +162,7 @@ Context: I am working on a paranormal-themed database. I have already designed t
 
 
 <br>
+<br>
 Ghost_types (ghost_type_id, name, hostility)
 
 <br>
@@ -180,6 +181,7 @@ Task: Generate a comprehensive SQL insertion script (INSERT INTO statements) to 
 Data Requirements & Constraints:
 
 
+<br>
 <br>
 Ghost Types: Generate 10 unique types (e.g., Banshee, Poltergeist, Wraith, etc.) with varied hostility levels.
 
